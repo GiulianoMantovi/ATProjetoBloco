@@ -48,7 +48,7 @@ st.markdown("""
     ### Coluna Distância
 """)
 
-st.image("../plots/distance_plot.png")
+st.image("distance_plot.png")
 
 st.markdown("""
     Através do cálculo dos outliers foram encontrados um limite superior de 7,8 Km e um limite inferior de -2,7 Km.
