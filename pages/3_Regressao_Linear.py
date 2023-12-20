@@ -9,7 +9,7 @@ st.divider()
 
 col_a1, col_a2 = st.columns(2)
 with col_a1:
-    st.image("../plots/reg.png", caption="Resultado da regressão")
+    st.image("reg.png", caption="Resultado da regressão")
 with col_a2:
     st.markdown("""
         Como apenas a variável distância (*distance_km*) apresentou boa correlação com a variável alvo será feito primeiro uma
