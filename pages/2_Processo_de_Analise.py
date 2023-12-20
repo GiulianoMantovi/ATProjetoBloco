@@ -58,7 +58,7 @@ st.markdown("""
     ### Coluna Passageiros
 """)
 
-st.image("../plots/passenger_plot.png")
+st.image("passenger_plot.png")
 st.markdown("""
     Todos os valores encontrados no histograma ou no boxplot são possíveis para o número de passageiros de uma viagem portanto
     os outliers serão considerados no cálculo da regressão.
@@ -79,16 +79,16 @@ st.markdown("""
 """)
 col_a1, col_a2 = st.columns(2)
 with col_a1:
-    st.image("../plots/fare_scatter_1.png", caption="Preço X Distância (Antes da Limpeza)")
+    st.image("fare_scatter_1.png", caption="Preço X Distância (Antes da Limpeza)")
 with col_a2:
-    st.image("../plots/fare_scatter_2.png", caption="Preço X Distância (Depois da Limpeza)")
+    st.image("fare_scatter_2.png", caption="Preço X Distância (Depois da Limpeza)")
 
 st.markdown("""
     ## 4 - Análise de Correlação
 """)
 col_b1, col_b2 = st.columns(2)
 with col_b1:
-    st.image("../plots/corr.png")
+    st.image("corr.png")
 with col_b2:
     st.markdown("""
         Pela análise de correlação entre as variáveis perceve-se que a única variável com uma correlação expressiva com
